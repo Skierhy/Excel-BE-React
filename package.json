@@ -1,12 +1,20 @@
 {
-  "name": "excel-be-react",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+	"name": "excel-be-react",
+	"version": "1.0.0",
+	"description": "Backend para el proyecto de excel",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon index.js",
+		"start": "node index.js"
+	},
+	"keywords": [],
+	"author": "Skierhy",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"mongodb": "^4.13.0",
+		"mongoose": "^6.9.0",
+		"nodemon": "^2.0.20"
+	}
 }
