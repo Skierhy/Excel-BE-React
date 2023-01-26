@@ -5,7 +5,9 @@
 	"main": "index.js",
 	"scripts": {
 		"dev": "nodemon src/index.js",
-		"start": "node src/index.js"
+		"start": "node src/index.js",
+		"format": "prettier --write .",
+		"lint": "eslint --fix . --ext .js,.ts,.jsx,.tsx"
 	},
 	"keywords": [],
 	"author": "Skierhy",
